@@ -1,0 +1,19 @@
+<h1>Now your results !</h1>
+
+
+  <h3>Your word: </h3>
+  <p><%= @results[:attempt]  %></p>
+  <hr>
+  <h3>Message:</h3>
+  <p><%= @results[:message]  %></p>
+  <hr>
+  <h3>Time taken to answer:</h3>
+  <p><%= @results[:time]  %> seconds</p>
+  <hr>
+  <h3>Your score:</h3>
+  <p><%= @results[:score]  %></p>
+  <hr>
+  <%= link_to "play again", "/game" %>
+
+
+
